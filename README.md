@@ -4,7 +4,7 @@
 ## 2. Implementation of different categories of operators.
 # Ex.No:1
   Build a C program to demonstrate the usage of different types of literals: integer, float, character, and string.  
-# Date : 
+# Date : 29/01/2026
 # Aim:
 To build a C program that prints integer, float,character, and string literals on the console using the printf() function.
 # Algorithm:
@@ -26,6 +26,7 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+```
 #include <stdio.h>
 int main() {
     int age = 17; 
@@ -38,6 +39,7 @@ int main() {
     printf("String literal: %s\n", name);
     return 0;
 }
+```
 # Output:
 <img width="839" height="543" alt="Screenshot 2026-03-24 214807" src="https://github.com/user-attachments/assets/281f4bca-f38a-408a-abe7-c7af52bd368d" />
 # Result: 
@@ -46,7 +48,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
-# Ex.No:2
+# Ex.No:2  29/01/2026
   Build a C program to display the value of a macro constant and a constant variable.
 # Date : 
 # Aim:
@@ -70,6 +72,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
 #include <stdio.h>
 #define PI 3.14159  
 int main() {
@@ -78,6 +81,7 @@ int main() {
     printf("Value of constant variable DAYS_IN_WEEK: %d\n", DAYS_IN_WEEK);
     return 0;
 }
+```
 # Output:
 <img width="572" height="472" alt="Screenshot 2026-03-24 221955" src="https://github.com/user-attachments/assets/bffdccbe-4fc6-44d1-8a56-dab89e5b0576" />
 
@@ -88,7 +92,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
-# Ex.No:3
+# Ex.No:3  29/01/2026
   Build a C program to demonstrate the use of different data types such as int, float, double, and char, and display their values using printf().
 # Date : 
 # Aim:
@@ -105,6 +109,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```
 #include <stdio.h>
 int main() {
     int age = 17;
@@ -117,6 +122,7 @@ int main() {
     printf("Character value (char): %c\n", grade);
     return 0;
 }
+```
 # Output:
 <img width="744" height="666" alt="Screenshot 2026-03-24 215752" src="https://github.com/user-attachments/assets/c2d5ec84-5859-459d-8a6b-34e409216833" />
 
@@ -126,7 +132,7 @@ int main() {
 # IAPR-1- Module 1 - FoC
 # Ex.No:4
   Build a C program to perform arithmetic and bitwise operations on two integers entered by the user. The program should display: Arithmetic operations: addition, subtraction, multiplication, division, and remainder. Bitwise operations: AND, OR, XOR, left shift, right shift, and NOT.
-# Date : 
+# Date :  29/01/2026
 # Aim:
   To build a C program that takes two integers as input and demonstrates the arithmetic and bitwise operations, displaying the results of each operation.
 # Algorithm:
@@ -158,6 +164,7 @@ int main() {
 ### Step 8:   
   Stop
 # Program:
+```
 #include <stdio.h>
 int main() {
     int num1, num2;
@@ -184,6 +191,7 @@ int main() {
     printf("Bitwise NOT of num1: ~%d = %d\n", num1, ~num1);
     return 0;
 }
+```
 # Output:
 <img width="577" height="714" alt="Screenshot 2026-03-24 220421" src="https://github.com/user-attachments/assets/5da57604-0273-49b6-90e3-49ecd9c5275e" />
 
@@ -193,7 +201,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
-# Ex.No:5
+# Ex.No:5  29/01/2026
   Develop a C program to check whether a given character is a vowel, consonant, digit, or special symbol using the ternary operator.
 # Date : 
 # Aim:
@@ -231,6 +239,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
 #include <stdio.h>
 int main() {
     char ch;
@@ -246,6 +255,7 @@ int main() {
     );
     return 0;
 }
+```
 # Output:
 <img width="662" height="517" alt="Screenshot 2026-03-24 221656" src="https://github.com/user-attachments/assets/fe8ffb6d-00d7-4bf7-adc1-73301bfc19f3" />
 
