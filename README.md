@@ -26,7 +26,20 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+#include <stdio.h>
+int main() {
+    int age = 17; 
+    printf("Integer literal: %d\n", age);    
+    float height = 5.6; 
+    printf("Float literal: %.1f\n", height); 
+    char grade = 'A'; 
+    printf("Character literal: %c\n", grade);  
+    char name[] = "Priya"; 
+    printf("String literal: %s\n", name);
+    return 0;
+}
 # Output:
+<img width="839" height="543" alt="Screenshot 2026-03-24 214807" src="https://github.com/user-attachments/assets/281f4bca-f38a-408a-abe7-c7af52bd368d" />
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -57,7 +70,18 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+#include <stdio.h>
+#define PI 3.14159  
+int main() {
+    const int DAYS_IN_WEEK = 7; 
+    printf("Value of macro constant PI: %.5f\n", PI);
+    printf("Value of constant variable DAYS_IN_WEEK: %d\n", DAYS_IN_WEEK);
+    return 0;
+}
 # Output:
+<img width="572" height="472" alt="Screenshot 2026-03-24 221955" src="https://github.com/user-attachments/assets/bffdccbe-4fc6-44d1-8a56-dab89e5b0576" />
+
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -81,7 +105,21 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+#include <stdio.h>
+int main() {
+    int age = 17;
+    float height = 5.6f;      
+    double weight = 55.75; 
+    char grade = 'A';
+    printf("Integer value (int): %d\n", age);
+    printf("Floating point value (float): %.2f\n", height);
+    printf("Double precision value (double): %.2lf\n", weight);
+    printf("Character value (char): %c\n", grade);
+    return 0;
+}
 # Output:
+<img width="744" height="666" alt="Screenshot 2026-03-24 215752" src="https://github.com/user-attachments/assets/c2d5ec84-5859-459d-8a6b-34e409216833" />
+
 # Result: 
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
@@ -120,7 +158,35 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+int main() {
+    int num1, num2;
+    printf("Enter the first integer: ");
+    scanf("%d", &num1);
+    printf("Enter the second integer: ");
+    scanf("%d", &num2);
+    printf("\n--- Arithmetic Operations ---\n");
+    printf("Addition: %d + %d = %d\n", num1, num2, num1 + num2);
+    printf("Subtraction: %d - %d = %d\n", num1, num2, num1 - num2);
+    printf("Multiplication: %d * %d = %d\n", num1, num2, num1 * num2);
+    if(num2 != 0) {
+        printf("Division: %d / %d = %d\n", num1, num2, num1 / num2);
+        printf("Remainder: %d %% %d = %d\n", num1, num2, num1 % num2);
+    } else {
+        printf("Division and remainder: Cannot divide by zero!\n");
+    }
+    printf("\n--- Bitwise Operations ---\n");
+    printf("Bitwise AND: %d & %d = %d\n", num1, num2, num1 & num2);
+    printf("Bitwise OR: %d | %d = %d\n", num1, num2, num1 | num2);
+    printf("Bitwise XOR: %d ^ %d = %d\n", num1, num2, num1 ^ num2);
+    printf("Left shift num1 by 1: %d << 1 = %d\n", num1, num1 << 1);
+    printf("Right shift num1 by 1: %d >> 1 = %d\n", num1, num1 >> 1);
+    printf("Bitwise NOT of num1: ~%d = %d\n", num1, ~num1);
+    return 0;
+}
 # Output:
+<img width="577" height="714" alt="Screenshot 2026-03-24 220421" src="https://github.com/user-attachments/assets/5da57604-0273-49b6-90e3-49ecd9c5275e" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -165,7 +231,24 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+int main() {
+    char ch;
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+    ( (ch >= '0' && ch <= '9') ? printf("'%c' is a Digit\n", ch) :
+      (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' ||
+       ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') ?
+       printf("'%c' is a Vowel\n", ch) :
+      ( (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z') ) ?
+       printf("'%c' is a Consonant\n", ch) :
+       printf("'%c' is a Special Symbol\n", ch)
+    );
+    return 0;
+}
 # Output:
+<img width="662" height="517" alt="Screenshot 2026-03-24 221656" src="https://github.com/user-attachments/assets/fe8ffb6d-00d7-4bf7-adc1-73301bfc19f3" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
